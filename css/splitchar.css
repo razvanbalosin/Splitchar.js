@@ -1,0 +1,19 @@
+.splitchar {
+    position:relative;
+    display:inline-block;
+    margin-top: -50px;
+    font-size:100px;
+    line-height: 200px;
+    color: #ecf0f1;
+    overflow:hidden;
+}
+.splitchar:before {
+    display:block;
+    z-index:1;
+    position:absolute;
+    top:0;
+    width: 50%;
+    content: attr(data-content);
+    overflow:hidden;
+    color: #bdc3c7;
+}
