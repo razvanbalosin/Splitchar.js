@@ -1,6 +1,7 @@
 
 h1.splitchar {font-family: 'Oswald', sans-serif !important;
-text-shadow: 4px 3px 0 #1d9d74,9px 8px 0 rgba(0,0,0,0.15);}
+text-shadow: 4px 3px 0 #1d9d74,9px 8px 0 rgba(0,0,0,0.15);
+line-height:150px;}
 
 .copy {position:absolute; top:15px; left: 0; width: 100%; text-shadow:0 1px 0 rgba(0,0,0,0.15);
 color: #a5d8c7; font-size: 14px; font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -45,7 +46,7 @@ body { background: #2ab8ac; }
 .section footer { position: absolute; bottom: 10px; width: 100%; left: 0; line-height: 1.3em; }
 
 .home { width: 100%; height: 490px; position: relative; text-align: center; }
-.home h1, .home h4 { position: relative; top: 35%; color: white; }
+.home h1, .home h4 { position: relative; color: white; }
 .home h4 { margin-top: 10px; }
 
 .arrow { position: absolute; bottom: 20px; left: 50%; margin-left: -10px; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid rgba(255, 255, 255, 0.3); cursor: pointer; }
