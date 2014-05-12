@@ -14,6 +14,27 @@ Make sure you add the desired style after splitchar, which are: (horizontal, hor
     $(".splitchar").splitchar();
 });</code></pre>
 
+##Customization
+<pre class="language-markup">/* Horizontal */
+.horizontal { /* Base CSS - e.g font-size */ }
+.horizontal:before { /* CSS for the left half */ }
+.horizontal:after { /* CSS for the right half */ }
+
+/* Horizontal Tripple */
+.horizontal-tri { /* Base CSS + Middle style */ }
+.horizontal-tri:before { /* CSS for the left side */ }
+.horizontal-tri:after { /* CSS  for the right side */ }
+
+/* Vertical */
+.vertical { /* Base CSS */ }
+.vertical:before { /* CSS for the upper half */ }
+.vertical:after { /* CSS for the lower half */ }
+
+/* Vertical Tripple */
+.vertical-tri { /* Base CSS + Lower half */ }
+.vertical-tri:before { /* CSS for the middle part */ }
+.vertical-tri:after { /* CSS for the upper part */ }</pre>
+
 ##License
 - Splitchar is licensed under the MIT License:
   - http://opensource.org/licenses/mit-license.html
