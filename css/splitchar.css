@@ -109,7 +109,7 @@
     position:relative;
     display:inline-block;
     font-size:100px;
-
+    height: 66%;
     z-index:3;
     overflow:hidden;
     white-space: pre;

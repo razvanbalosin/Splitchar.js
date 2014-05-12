@@ -4,7 +4,7 @@
  */
 
 $.fn.splitchar = function() {
-    $('head').append('<link rel="stylesheet" href="http://emisfera.github.io/Splitchar.js/css/splitchar.css" type="text/css" />');
+
 	$('.splitchar').each(function (index) {
 	    var characters = $(this).text().split("");
 	    $this = $(this);
