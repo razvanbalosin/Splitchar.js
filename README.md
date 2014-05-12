@@ -1,4 +1,4 @@
-#[Splitchar](http://www.emisfera-shop.ro/splitchar/)
+#[Splitchar.js](http://www.emisfera-shop.ro/splitchar/)
 ###style and design the first, second or both halves of a character
 =========
 
