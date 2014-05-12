@@ -36,10 +36,11 @@ Make sure you add the desired style after splitchar, which are: (horizontal, hor
 .vertical-tri:after { /* CSS for the upper part */ }</pre>
 
 ##License
-- Splitchar is licensed under the MIT License:
+- Splitchar.js is licensed under the MIT License:
   - http://opensource.org/licenses/mit-license.html
 
 ##Changelog
+- v1.1.0 - Multiple Split Styles
 - v1.0.0 - First Release
 
 ##Author
