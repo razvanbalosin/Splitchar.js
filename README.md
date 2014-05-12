@@ -1,14 +1,18 @@
-#[Splitchar.js](http://emisfera.github.io/Splitchar.js/)
+#Splitchar.js - [Website](http://emisfera.github.io/Splitchar.js/)
 ###style and design the first, second or both halves of a character
 =========
 
 Splitchar is an easy to use jQuery plugin that allows you to style half of a character
 
 ##Usage
-<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar horizontal&quot;&gt;Splitchar&lt;/h1&gt; &lt;!-- Split horizontal - 2 colors --&gt;</code></pre>
-<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar horizontal-tri&quot;&gt;Splitchar&lt;/h1&gt; &lt;!-- Split horizontal - 3 colors --&gt;</code></pre>
-<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar vertical&quot;&gt;Splitchar&lt;/h1&gt; &lt;!-- Split vertical - 2 colors --&gt;</code></pre>
-<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar vertical-tri&quot;&gt;Splitchar&lt;/h1&gt; &lt;!-- Split vertical - 3 colors --&gt;</code></pre>
+<pre class="language-markup"><code>&lt;!-- Split horizontal - 2 colors --&gt;
+&lt;h1 class=&quot;splitchar horizontal&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
+<pre class="language-markup"><code>&lt;!-- Split horizontal - 3 colors --&gt;
+&lt;h1 class=&quot;splitchar horizontal-tri&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
+<pre class="language-markup"><code>&lt;!-- Split vertical - 2 colors --&gt;
+&lt;h1 class=&quot;splitchar vertical&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
+<pre class="language-markup"><code>&lt;!-- Split vertical - 3 colors --&gt;
+&lt;h1 class=&quot;splitchar vertical-tri&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
 <pre class="language-markup"><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/splitchar.css&quot;&gt;</code></pre>
 <pre class="language-markup"><code>&lt;script src=&quot;http://code.jquery.com/jquery-latest.min.js&quot;&gt;&lt;/script&gt;</code></pre>				
 <pre class="language-markup"><code>&lt;script type=&quot;text/javascript&quot; src=&quot;js/splitchar.js&quot;&gt;&lt;/script&gt;</code></pre>
