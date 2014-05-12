@@ -1,7 +1,11 @@
 
 h1.splitchar {font-family: 'Oswald', sans-serif !important;
 text-shadow: 4px 3px 0 #1d9d74,9px 8px 0 rgba(0,0,0,0.15);
-line-height:150px;}
+line-height:300px;
+margin-top: 5%;}
+
+h3.splitchar {font-family: 'Oswald', sans-serif !important;
+}
 
 .copy {position:absolute; top:15px; left: 0; width: 100%; text-shadow:0 1px 0 rgba(0,0,0,0.15);
 color: #a5d8c7; font-size: 14px; font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -10,7 +14,40 @@ text-align: center;}
 .iframe {margin-right: -35px;}
 .copy a {color: #d2ebe3 !important; border-bottom: dotted 1px #a5d8c7;}
 
-
+.input--dropdown {
+	background-image: url("http://daneden.github.io/animate.css/images/ddown.svg?3");
+	background-repeat: no-repeat;
+	background-size: 1.5rem 1rem;
+	background-position: right center;
+}
+.input {
+	border: 2px solid white;
+	border-radius: 4px;
+}
+.butt, .input {
+	padding: 0.75rem;
+	margin: 0.375rem;
+	background-color: transparent;
+	border-radius: 4px;
+}
+input, select, button, textarea {
+	-webkit-appearance: none;
+	font-family: 'Oswald', sans-serif !important;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.butt {
+	border: 2px solid white;
+	background: transparent;
+	line-height: 1.5;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	-webkit-animation: hue 60s infinite linear;
+}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
 
 html { line-height: 1; }

@@ -34,10 +34,20 @@
 <iframe src="http://ghbtns.com/github-btn.html?user=emisfera&repo=splitchar.js&type=fork&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
 </div>
-			<h1 class="splitchar horizontal">&nbsp;Splitchar&nbsp;</h1><br>
-			<h1 class="splitchar vertical">Vertical</h1><br>
-			<h1 class="splitchar horizontal-tri">Horizontal Tri</h1><br>
-			<h1 class="splitchar vertical-tri">Vertical Tri</h1>
+<h1 id="title" class="splitchar horizontal">Splitchar</h1><br>
+<select class="input input--dropdown js--animations">
+        <optgroup label="Horizontal">
+          <option value="splitchar horizontal">Double</option>
+          <option value="splitchar horizontal-tri">Tripple</option>
+        </optgroup>
+
+        <optgroup label="Vertical">
+          <option value="splitchar vertical">Double</option>
+          <option value="splitchar vertical-tri">Tripple</option>
+        </optgroup>
+      </select>
+      <button class="butt js--triggerAnimation">Split it</button>
+
 			
 			<a class="arrow"></a>
 		</section>
@@ -46,7 +56,8 @@
 		<section class="section code amethyst">
 			<h1>How to use</h1><br>
 			<div class="">
-				<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
+				<pre class="language-markup"><code>&lt;h1 class=&quot;splitchar horizontal&quot;&gt;Splitchar&lt;/h1&gt;</code></pre>
+				Make sure you add the desired style after splichar, which are: (horizontal, horizontal-tri, vertical, vertical-tri)
 				<pre class="language-markup"><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/splitchar.css&quot;&gt;</code></pre>
 				<pre class="language-markup"><code>&lt;script src=&quot;http://code.jquery.com/jquery-latest.min.js&quot;&gt;&lt;/script&gt;</code></pre>				
 				<pre class="language-markup"><code>&lt;script type=&quot;text/javascript&quot; src=&quot;js/splitchar.js&quot;&gt;&lt;/script&gt;</code></pre>
@@ -59,10 +70,27 @@
 		<section class="section green">
 			<h1>Customizing</h1><br>
 			<pre>
-	<code class="language-css">.splitchar:before {color: #bdc3c7 !important;}
-	.splitchar {color: #ecf0f1 !important;}
+	<code class="language-css">/* Horizontal */
+	.horizontal { /* Base CSS - e.g font-size */ }
+	.horizontal:before { /* CSS for the left half */ }
+	.horizontal:after { /* CSS for the right half */ }
+
+	/* Horizontal Tripple */
+	.horizontal-tri { /* Base CSS + Middle style */ }
+	.horizontal-tri:before { /* CSS for the left side */ }
+	.horizontal-tri:after { /* CSS  for the right side */ }
+
+	/* Vertical */
+	.vertical { /* Base CSS */ }
+	.vertical:before { /* CSS for the upper half */ }
+	.vertical:after { /* CSS for the lower half */ }
+
+	/* Vertical Tripple */
+	.vertical-tri { /* Base CSS + Lower half */ }
+	.vertical-tri:before { /* CSS for the middle part */ }
+	.vertical-tri:after { /* CSS for the upper part */ }
 </code></pre>
-			<p>Of course, you can do more than colour with splitchar. It's up to you :)</p>
+			<p>You can do anything you want with Splitchar. It's up to you :)</p>
 			<a class="btn clear" href="splitchar.zip">Download</a>
 		</section>
 	</div>
@@ -99,8 +127,19 @@
 			})
 
 		}) // Ready
-
-		
 	</script>
+
+<script>
+$(document).ready(function(){
+ $(".butt").click(function(){
+ 	value = $(".input").val();
+ 	$("#title").attr('class', value);
+ 	console.log (value);
+ 	$(".splitchar").splitchar();
+
+ });
+});
+
+</script>
 </body>
 </html>

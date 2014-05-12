@@ -3,8 +3,7 @@
  * @author emisfera - Razvan B.
  */
 
-$.fn.splitchar = function() {
-
+$.fn.splitchar = function() {	
 	$('.splitchar').each(function (index) {
 	    var characters = $(this).text().split("");
 	    $this = $(this);
@@ -21,7 +20,10 @@ $.fn.splitchar = function() {
             }
             else if ( $this.hasClass("vertical-tri") ) {
             $this.append("<span class='vertical-tri' data-content='" + el + "'>" + el + "</span>");    
+            }
+            else {
+            $this.append("<span class='horizontal' data-content='" + el + "'>" + el + "</span>");	
             }            
 	    });
 	});
-}
+};

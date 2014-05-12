@@ -1,7 +1,8 @@
+
 .horizontal {
     position:relative;
     display:inline-block;
-    font-size:100px;
+    font-size:200px;
     overflow:hidden;
     white-space: pre;
     color: transparent;
@@ -15,7 +16,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
+    color: #ecf0f1;
 }
 
 .horizontal:after {
@@ -29,17 +30,17 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
+    color: #bdc3c7;
 }
 
 
 .horizontal-tri {
     position:relative;
     display:inline-block;
-    font-size:100px;
+    font-size:200px;
     overflow:hidden;
     white-space: pre;
-    color: #d2d8d9;
+    color: #bdc3c7;
 }
 .horizontal-tri:before {
     display:block;
@@ -50,7 +51,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
+    color: #ecf0f1;
 }
 
 .horizontal-tri:after {
@@ -64,15 +65,14 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
-    border:none;
+    color: #aaafb2;
 }
 
 
 .vertical {
     position:relative;
     display:inline-block;
-    font-size:100px;
+    font-size:200px;
     overflow:hidden;
     white-space: pre;
     color: transparent;
@@ -86,7 +86,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
+    color: #ecf0f1;
 }
 
 .vertical:after {
@@ -95,12 +95,12 @@
     position:absolute;
     z-index:1;
     top:0;
-    height:66%;
+    height:100%;
     left:0;
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
+    color: #bdc3c7;
 }  
 
 
@@ -108,9 +108,7 @@
 .vertical-tri {
     position:relative;
     display:inline-block;
-    font-size:100px;
-    height: 66%;
-    z-index:3;
+    font-size:200px;
     overflow:hidden;
     white-space: pre;
     color: #ecf0f1;
