@@ -1,10 +1,9 @@
 .horizontal {
     position:relative;
     display:inline-block;
-    font-size:100px;
     overflow:hidden;
     white-space: pre;
-    color: transparent;
+    color:transparent;
 }
 .horizontal:before {
     display:block;
@@ -15,9 +14,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
 }
-
 .horizontal:after {
     display:block;
     direction: rtl;
@@ -29,17 +26,12 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
 }
-
-
 .horizontal-tri {
     position:relative;
     display:inline-block;
-    font-size:100px;
     overflow:hidden;
     white-space: pre;
-    color: #d2d8d9;
 }
 .horizontal-tri:before {
     display:block;
@@ -50,9 +42,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
 }
-
 .horizontal-tri:after {
     display:block;
     direction: rtl;
@@ -64,15 +54,10 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
-    border:none;
 }
-
-
 .vertical {
     position:relative;
     display:inline-block;
-    font-size:100px;
     overflow:hidden;
     white-space: pre;
     color: transparent;
@@ -86,9 +71,8 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
+    color: #ecf0f1;
 }
-
 .vertical:after {
     display:block;
     direction: rtl;
@@ -100,20 +84,13 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #ecf0f1;
+    color: #bdc3c7;
 }  
-
-
-
 .vertical-tri {
     position:relative;
     display:inline-block;
-    font-size:100px;
-    height: 66%;
-    z-index:3;
     overflow:hidden;
     white-space: pre;
-    color: #ecf0f1;
 }
 .vertical-tri:before {
     display:block;
@@ -124,9 +101,7 @@
     content: attr(data-content); 
     overflow:hidden;
     pointer-events: none; 
-    color: #bdc3c7;
 }
-
 .vertical-tri:after {
     display:block;
     direction: rtl;
@@ -138,5 +113,4 @@
     content: attr(data-content);
     overflow:hidden;
     pointer-events: none;
-    color: #d2d8d9;
 }  
