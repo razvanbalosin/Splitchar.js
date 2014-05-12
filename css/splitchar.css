@@ -1,19 +1,142 @@
-.splitchar {
+.horizontal {
     position:relative;
     display:inline-block;
-    margin-top: -50px;
     font-size:100px;
-    line-height: 200px;
-    color: #ecf0f1;
     overflow:hidden;
+    white-space: pre;
+    color: transparent;
 }
-.splitchar:before {
+.horizontal:before {
     display:block;
     z-index:1;
     position:absolute;
     top:0;
     width: 50%;
-    content: attr(data-content);
+    content: attr(data-content); 
     overflow:hidden;
+    pointer-events: none; 
     color: #bdc3c7;
 }
+
+.horizontal:after {
+    display:block;
+    direction: rtl;
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:50%;
+    width: 50%;
+    content: attr(data-content);
+    overflow:hidden;
+    pointer-events: none;
+    color: #ecf0f1;
+}
+
+
+.horizontal-tri {
+    position:relative;
+    display:inline-block;
+    font-size:100px;
+    overflow:hidden;
+    white-space: pre;
+    color: #d2d8d9;
+}
+.horizontal-tri:before {
+    display:block;
+    z-index:1;
+    position:absolute;
+    top:0;
+    width: 33%;
+    content: attr(data-content); 
+    overflow:hidden;
+    pointer-events: none; 
+    color: #bdc3c7;
+}
+
+.horizontal-tri:after {
+    display:block;
+    direction: rtl;
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:68%;
+    width: 33%;
+    content: attr(data-content);
+    overflow:hidden;
+    pointer-events: none;
+    color: #ecf0f1;
+    border:none;
+}
+
+
+.vertical {
+    position:relative;
+    display:inline-block;
+    font-size:100px;
+    overflow:hidden;
+    white-space: pre;
+    color: transparent;
+}
+.vertical:before {
+    display:block;
+    z-index:2;
+    position:absolute;
+    top:0;
+    height: 50%;
+    content: attr(data-content); 
+    overflow:hidden;
+    pointer-events: none; 
+    color: #bdc3c7;
+}
+
+.vertical:after {
+    display:block;
+    direction: rtl;
+    position:absolute;
+    z-index:1;
+    top:0;
+    height:100%;
+    left:0;
+    content: attr(data-content);
+    overflow:hidden;
+    pointer-events: none;
+    color: #ecf0f1;
+}  
+
+
+
+.vertical-tri {
+    position:relative;
+    display:inline-block;
+    font-size:100px;
+    height: 66%;
+    z-index:3;
+    overflow:hidden;
+    white-space: pre;
+    color: #ecf0f1;
+}
+.vertical-tri:before {
+    display:block;
+    z-index:2;
+    position:absolute;
+    top:0;
+    height: 33%;
+    content: attr(data-content); 
+    overflow:hidden;
+    pointer-events: none; 
+    color: #bdc3c7;
+}
+
+.vertical-tri:after {
+    display:block;
+    direction: rtl;
+    position:absolute;
+    z-index:1;
+    top:0;
+    height:66%;
+    left:0;
+    content: attr(data-content);
+    overflow:hidden;
+    pointer-events: none;
+    color: #d2d8d9;
+}  
