@@ -1,0 +1,119 @@
+.horizontal {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: pre;
+  color: transparent;
+  &:before {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+  &:after {
+    display: block;
+    direction: rtl;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+}
+
+.horizontal-tri {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: pre;
+  &:before {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    width: 33%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+  &:after {
+    display: block;
+    direction: rtl;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 68%;
+    width: 33%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+}
+
+.vertical {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: pre;
+  color: transparent;
+  &:before {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    height: 50%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+    color: #ecf0f1;
+  }
+  &:after {
+    display: block;
+    direction: rtl;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    left: 0;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+    color: #bdc3c7;
+  }
+}
+
+.vertical-tri {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: pre;
+  &:before {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    height: 33%;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+  &:after {
+    display: block;
+    direction: rtl;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 66%;
+    left: 0;
+    content: attr(data-content);
+    overflow: hidden;
+    pointer-events: none;
+  }
+}
