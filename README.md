@@ -1,4 +1,4 @@
-#Splitchar.js - [Website](http://emisfera.github.io/Splitchar.js/)
+#Splitchar.js - [Website](http://razvanbalosin.github.io/Splitchar.js/)
 ###style and design the first, second or both halves of a character
 =========
 
@@ -51,6 +51,6 @@ Splitchar is an easy to use jQuery plugin that allows you to style half of a cha
 
 ##Author
 - Email: balosinrazvan@yahoo.com
-- GitHub: https://github.com/emisfera
+- GitHub: https://github.com/razvanbalosin
 - Work: FrontEnd Developer
 
