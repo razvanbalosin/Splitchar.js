@@ -10,7 +10,7 @@ h3.splitchar {font-family: 'Oswald', sans-serif !important;
 .copy {position:absolute; top:15px; left: 0; width: 100%; text-shadow:0 1px 0 rgba(0,0,0,0.15);
 color: #a5d8c7; font-size: 14px; font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 text-align: center;}
-.copy p {display: inline; vertical-align: super;}
+.copy p {display: inline; vertical-align: super; margin-right: 15px;}
 .iframe {margin-right: -15px;}
 .copy a {color: #d2ebe3 !important; border-bottom: dotted 1px #a5d8c7;}
 
